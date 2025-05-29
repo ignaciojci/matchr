@@ -13,6 +13,7 @@
 #' @return A new data frame resulting from the left join of `x` and `y`.
 #'   Rows in `x` that do not have a match in `y` will have `NA` values for
 #'   columns originating from `y`.
+#' @export
 #' @importFrom dplyr left_join
 #' @importFrom dplyr join_by
 #' @examples

@@ -1,0 +1,14 @@
+Package: matchr
+Title: Name Normalization and Multi-Column Matching
+Version: 0.1.0
+Authors@R:
+    person("John Carlos", "Ignacio", email = "carlignacio@gmail.com", role = c("aut", "cre"))
+Description: This package provides functions to normalize gene names and perform multi-column matching and joining operations on data frames. It is particularly useful when dealing with datasets where gene names might be represented inconsistently across multiple columns or contain various delimiters and suffixes.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Imports:
+    stringr,
+    dplyr,
+    purrr
